@@ -1,0 +1,21 @@
+########################################################################
+# Please refer the following Management Agent Installation Guide for more details.
+#
+# https://docs.cloud.oracle.com/iaas/management-agents/index.html
+#
+# Since this file has sensitive information, please make sure that after
+# executing setup.sh you either delete this file or store it in a secure
+# location.
+#
+########################################################################
+ManagementAgentInstallKey = Mi4wLGV1LWZyYW5rZnVydC0xLG9jaWQxLnRlbmFuY3kub2MxLi5hYWFhYWFhYWhyczRhdmFtYXhpc2NvdXllb2lyYzdoejVieXZ1bXd5dmplZHNscHNkYjJkMnhlMmtwMnEsb2NpZDEubWFuYWdlbWVudGFnZW50aW5zdGFsbGtleS5vYzEuZXUtZnJhbmtmdXJ0LTEuYW1hYWFhYWFmcnB4NG1pYW1ib2FqenFwb29jcTR5NWg2anN1dzNxN3Q0b2pqZGthZHhvNjdhdXp2Y3lxLElmN2xYcmlUNDFOeWpGMmZ4TnJmZHM0aXJIa3NkNTJaYXBRUEozRTA=
+AgentDisplayName = 
+#Please uncomment the below tags properties and provide values as needed
+#FreeFormTags = [{"<key1>":"<value1>"}, {"<key2>":"<value2>"}]
+DefinedTags = [{"jms":{"fleet_ocid":"ocid1.jmsfleet.oc1.eu-frankfurt-1.amaaaaaafrpx4miaowwjo66g3jn7qlzdsqip7zmwldqwxdaswmmziarimrma"}}]
+ProxyHost = 
+ProxyPort = 
+ProxyUser = 
+ProxyPassword = 
+ProxyRealm = 
+Service.plugin.jms.download=true
